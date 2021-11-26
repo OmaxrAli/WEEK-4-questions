@@ -1,4 +1,4 @@
-public abstract class Employee {
+public class Employee {
 
     private String Fname;
     private String Lname;
@@ -14,6 +14,18 @@ public abstract class Employee {
 
     public void setSSN(String SSN) {
         this.SSN = SSN;
+    }
+
+    public String getFname() {
+        return Fname;
+    }
+
+    public String getLname() {
+        return Lname;
+    }
+
+    public String getSSN() {
+        return SSN;
     }
 
     public Employee(){
